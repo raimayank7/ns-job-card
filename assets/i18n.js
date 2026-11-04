@@ -644,7 +644,19 @@
     'jc.promise': 'Promised by', 'jc.est': 'Estimate (₹)', 'jc.tech': 'Technician / mechanic', 'jc.pcard': 'Job card (when the item comes in)', 'jc.pbill': 'Service bill (when work is done)', 'jc.printh': 'One record from intake to bill. Delivered jobs switch to the service bill.',
     'jc.work': 'Parts and labour', 'jc.addline': '+ Add part or labour', 'jc.lk': 'Line type', 'jc.part': 'Part', 'jc.lab': 'Labour / service',
     'jc.wa': 'WhatsApp the customer', 'jc.board': 'Open jobs', 'jc.no': 'Job No.', 'jc.nojobs': 'No open jobs. Every saved job is delivered.', 'jc.again': 'New job, same customer',
-    'jc.sum.parts': 'Parts {v}', 'jc.sum.lab': 'Labour {v}', 'jc.over': 'The bill is more than 10% above the estimate of {v}. Call the customer first.', 'jc.v.cust': 'Type the customer’s name.', 'jc.v.item': 'Type the make, model or serial number of the item.'
+    'jc.sum.parts': 'Parts {v}', 'jc.sum.lab': 'Labour {v}', 'jc.over': 'The bill is more than 10% above the estimate of {v}. Call the customer first.', 'jc.v.cust': 'Type the customer’s name.', 'jc.v.item': 'Type the make, model or serial number of the item.',
+    /* contractor-bill (running account bill) */
+    'doc.rabill': 'RA bill', 'docs.rabill': 'RA bills', 'Doc.rabill': 'RA bill', 'nav.contractorbill': 'Contractor bill', 'f.contractorbill': 'Contractor RA bill maker',
+    'ra.client': 'Client (work given by)', 'ra.cname': 'Client name', 'ra.work': 'Work', 'ra.wname': 'Name of work', 'ra.site': 'Site / location', 'ra.wo': 'Work order / agreement no.', 'ra.wodate': 'Work order date',
+    'ra.rano': 'RA bill no. (1, 2, 3…)', 'ra.final': 'This is the final bill', 'ra.from': 'Work done from', 'ra.to': 'Work done up to', 'ra.boq': 'BOQ items and quantities', 'ra.additem': '+ Add BOQ item',
+    'ra.ino': 'Item no.', 'ra.boqqty': 'BOQ qty', 'ra.prev': 'Previous qty', 'ra.this': 'This bill qty', 'ra.cum': 'Up to date: {q} {u}', 'ra.overq': 'more than the BOQ quantity',
+    'ra.taxded': 'GST and deductions', 'ra.gst': 'GST on this bill', 'ra.gother': 'Other rate', 'ra.gnone': 'No GST (exempt or not registered)', 'ra.grate': 'GST rate (%)',
+    'ra.gsth': 'Works contract service is 18% in most cases. A few works have other rates or are exempt: check your work order and your accountant.',
+    'ra.ret': 'Retention / security deposit (%)', 'ra.tds': 'Income-tax TDS (%)', 'ra.tdsh': 'Contractor payments: usually 1% for an individual or HUF, 2% for others, on the value without GST.',
+    'ra.gtds': 'GST TDS 2% (government client)', 'ra.gtdsh': 'Government departments and some public bodies deduct it when the contract value is above ₹2.5 lakh.',
+    'ra.adv': 'Advance recovered (₹)', 'ra.mat': 'Material recovered (₹)', 'ra.oth': 'Other deductions (₹)', 'ra.othnote': 'Other deductions are for', 'ra.contractor': 'Contractor (you)',
+    'ra.s.this': 'This bill {v}', 'ra.s.cum': 'Up to date {v}', 'ra.s.done': '{p}% of BOQ done', 'ra.s.ded': 'Deductions {v}', 'ra.s.net': 'Net payable {v}', 'ra.s.over': '{n} item(s) above BOQ quantity',
+    'ra.v.client': 'Type the client’s name.', 'ra.v.qty': 'Type the quantity done in this bill for at least one item.', 'ra.c.over': '{n} item(s) go above the BOQ quantity. Save anyway?', 'ra.next': 'Next RA bill'
   };
 
   var packs = { en: EN }, cur = 'en';

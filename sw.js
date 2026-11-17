@@ -1,5 +1,5 @@
-const CACHE = 'ns-job-card-b5d4623ada';
-const SHELL = ["/", "/assets/b-kit-t.1dd1579e17.css", "/assets/b-core.04eaacf0ed.js", "/assets/b-store.5783c62c39.js", "/assets/books.js?v=4192f14534", "/assets/xlsx.js?v=9c9abd01b6", "/assets/tally.js?v=8932db5030", "/assets/acct.js?v=6b41f03365", "/assets/cashare.js?v=bb7d6750a9", "/assets/caui.js?v=b89018e749"];
+const CACHE = 'ns-job-card-1b5fe52187';
+const SHELL = ["/", "/assets/b-kit-t.1dd1579e17.css", "/assets/b-core.1b6e60a875.js", "/assets/b-store.65fb753771.js", "/assets/books.js?v=4192f14534", "/assets/xlsx.js?v=9c9abd01b6", "/assets/tally.js?v=8932db5030", "/assets/acct.js?v=6b41f03365", "/assets/cashare.js?v=bb7d6750a9", "/assets/caui.js?v=b89018e749"];
 const WARM = [], LGROUPS = [];
 const slow = () => { const c = self.navigator && navigator.connection; return !!c && (c.saveData || /2g/.test(c.effectiveType || '')); };
 const keep = (c, list) => Promise.allSettled(list.map(u => c.match(u).then(m => m || c.add(u))));

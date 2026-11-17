@@ -136,6 +136,9 @@
       });
     },
     ready: function (K) {
+      /* the Warranty screen (warranty.js) hands a repair over as ?pre=<json>: customer, item, serial and a note that it is under warranty */
+      var pre = new URLSearchParams(location.search).get('pre');
+      if (pre) { try { var pp = JSON.parse(pre); history.replaceState(null, '', location.pathname + location.hash); K.apply(pp); } catch (e) {} }
       var d = K.doc(); if (!K.editing() && d.seller.name) { var k = kindFor(d.seller); if (k !== d.kind) { d.kind = k; K.refill(); } }
       if ($('#jc-board')) return;
       var x = NS.el('dialog', { id: 'jc-board', 'aria-labelledby': 'jc-board-h' }, '<div class="dlg-h"><h2 id="jc-board-h"></h2><button type="button" class="btn sm" data-close></button></div><div class="dlg-b" data-board></div>');

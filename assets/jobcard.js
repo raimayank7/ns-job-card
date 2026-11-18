@@ -1,5 +1,5 @@
 /* job-card.niveshsahayak.in: repair job card (what came in, the complaint, estimate, status) and the service bill for the
-   same job (parts at their GST rate, labour as a repair service). Record type 'job'; it counts as a sale in the Nivesh Sahayak App
+   same job (parts at their GST rate, labour as a repair service). Record type 'job'; it counts as a sale in NSBiz
    once it is printed or saved as a service bill (print 'bill'). */
 (function () {
   'use strict';
